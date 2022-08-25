@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # Slidy
 
-A colorful customizable slider widget written with Flutter
+A colorful customizable slider widget written with Flutter.
 
 ## Features
 
