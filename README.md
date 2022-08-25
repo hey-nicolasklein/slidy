@@ -11,29 +11,47 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A colorful customizable slider widget written with Flutter
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+A simple vertical slider, which can be used for example to confirm a user action.
+
+The following settings can be adjusted:
+- Optional icon inside the draggable nob
+- Optional background widget inside the slider
+- Shimmer over the background widget
+- Alternative upward pointing arrow included as background widget
+- Full color customization of border, inner background or inner gradient
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Just include Slidy with 
+```dart
+import 'package:slidy/slidy.dart';
+```
+and include it in your app. For example like:
+
+
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+Slidy(
+  displayArrowBackgroundElement: true,
+  shimmer: true,
+  nobIcon: const Icon(
+    Icons.favorite,
+    color: Colors.white,
+  ),
+  height: 200,
+  width: 60,
+  action: () {
+    setState(() {
+      counter = counter + 1;
+    });
+  },
+),
 ```
 
 ## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Please submit as Issues any problems or feature suggestions.
