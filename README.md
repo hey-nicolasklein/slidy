@@ -11,6 +11,8 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
+# Slidy
+
 A colorful customizable slider widget written with Flutter
 
 ## Features
