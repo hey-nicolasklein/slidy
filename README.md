@@ -1,19 +1,13 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32168266/186658747-815f75a5-d3fc-4f75-9e06-5978d1b432c3.png" alt="Slidy Logo" width="300"/>
+</p>
+<p align="center">A colorful customizable slider widget written with Flutter.</p>
 
-# Slidy
-
-A colorful customizable slider widget written with Flutter.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32168266/186657428-9b916ffb-5f6d-4876-8393-e497a11a0bb1.png" alt="Slidy Logo" width="100"/>
+</p>
 
 ## Features
 
@@ -22,6 +16,7 @@ A simple vertical slider, which can be used for example to confirm a user action
 The following settings can be adjusted:
 - Optional icon inside the draggable nob
 - Optional background widget inside the slider
+- Background widget becomes increasingly invisible when the slider moves upwards
 - Shimmer over the background widget
 - Alternative upward pointing arrow included as background widget
 - Full color customization of border, inner background or inner gradient
@@ -57,3 +52,7 @@ Slidy(
 
 ## Additional information
 Please submit as Issues any problems or feature suggestions.
+
+## Slidy in action
+<a href="https://user-images.githubusercontent.com/32168266/186659728-67544af0-8d6b-4ab1-ab95-13fab8598aea.mov"> Video demonstrating the slider</a>
+
